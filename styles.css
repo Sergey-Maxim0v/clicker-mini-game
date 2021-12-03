@@ -60,6 +60,9 @@ p {
 .screen.up {
   margin-top: -100vh;
 }
+.screen.down {
+  margin-top: -100vh;
+}
 
 .time-list {
   display: flex;
@@ -91,6 +94,7 @@ p {
 
 .hide {
   opacity: 0;
+  display: none;
 }
 
 .primary {
@@ -118,4 +122,23 @@ p {
 }
 span {
   color: white;
+}
+.btnRestartRow{
+  display: none;
+  width: 100%;
+  height: auto;
+  margin: 0 0 40px 0;
+}
+.btnRestart{
+  display: none;
+  width: 300px;
+  height: 80px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #16d9e3;
+  cursor: pointer;
+}
+.visible{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

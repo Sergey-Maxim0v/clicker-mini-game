@@ -3,6 +3,8 @@ const screens = document.querySelectorAll(".screen");
 const timeList = document.querySelector("#time-list");
 const timeEl = document.querySelector("#time");
 const board = document.querySelector("#board");
+const btnRestart = document.querySelector(".btnRestart")
+const btnRestartRow = document.querySelector(".btnRestartRow")
 const colors = [
   "white",
   "green",
@@ -67,6 +69,8 @@ function setTime(value) {
 function finishGame() {
   timeEl.parentNode.classList.add("hide");
   userScore.parentNode.classList.add("hide");
+  btnRestartRow.classList.add("visible");
+  btnRestart.classList.add("visible");
   board.innerHTML = `<h1>Cчет: <span class="primary">${score}</span></h1>`;
 }
 
@@ -102,3 +106,9 @@ function getRandomColor() {
 function setUserScore() {
   userScore.innerHTML = score;
 }
+
+const restart = btnRestart.addEventListener('click', (event)=>{
+  if(event){
+    location.reload()
+  }
+})
