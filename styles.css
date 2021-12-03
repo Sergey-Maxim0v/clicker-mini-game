@@ -18,6 +18,7 @@ a {
   margin: 2vh 0 0 0;
   color: #16d9e3;
   text-decoration: none;
+  transition: all 0.3s;
 }
 
 a:hover {
@@ -84,6 +85,7 @@ p {
   font-family: inherit;
   padding: 0.5rem 1rem;
   font-size: 4vh;
+  transition: all 0.2s;
 }
 
 .time-btn:hover {
