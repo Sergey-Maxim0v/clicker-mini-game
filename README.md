@@ -42,22 +42,30 @@
 
 
 ### <p align="center">Первый экран:</p>
-![](/assets/section1.png)
+<div align="center">
+<img src="/assets/section1.png" align="center"/>
+</div>
 <p align="center">описание приложения.</p>
 <p align="center">при нажатии на кнопку "Начать игру", происходит переход на второй экран</p>
 
 ### <p align="center">Второй экран:</p>
-![](/assets/section2.png)
+<div align="center">
+<img src="/assets/section2.png" align="center"/>
+</div>
 <p align="center">выбор времени.</p>
 <p align="center">при нажатии на любое время, происходит переход на третий экран</p>
 
 ### <p align="center">Третий экран, стадия игры:</p>
-![](/assets/section3-game.png)
-<p align="center">поле игры и таймер.</p>
+<div align="center">
+<img src="/assets/section3-game.png" align="center"/>
+</div>
+<p align="center">таймер, счет, поле игры.</p>
 <p align="center">при промахе, либо когда время закончится, игра заканчивается.</p>
 
 ### <p align="center">Третий экран, стадия завершенной игры:</p>
-![](/assets/section3-end.png)
+<div align="center">
+<img src="/assets/section3-end.png" align="center"/>
+</div>
 <p align="center">поле игры, на котором показан счет и кнопка "Начать заново".</p>
 <p align="center">при нажатии на кнопку "Начать заново", страница обновляется и отображается первый экран.</p>
 
